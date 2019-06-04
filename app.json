@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "contactsapp",
+    "description": "An empty new project",
+    "slug": "contactsapp",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app.png",
+    "loading": {
+      "icon": "./assets/icons/loading.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}

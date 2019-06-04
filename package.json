@@ -1,0 +1,38 @@
+{
+  "name": "contactsapp",
+  "version": "0.0.0",
+  "description": "contactsapp",
+  "author": "Nikola Lukic",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "jest"
+  },
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-persist": "^4.8.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx-source": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.1.1",
+    "eslint-plugin-better": "^0.1.5",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-react": "^7.0.1",
+    "exp": "^42.1.0",
+    "metro-react-native-babel-preset": "^0.51.1",
+    "redux-logger": "^3.0.6"
+  }
+}
